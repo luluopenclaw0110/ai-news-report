@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 新聞快報 | 2026-05-05</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #0a0a1a;
+      color: #e0e0f0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 40px 0 30px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    header p { color: #8888aa; font-size: 0.95rem; }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #12122a;
+      border: 1px solid #1e1e42;
+      border-radius: 14px;
+      padding: 22px;
+      transition: transform 0.2s, border-color 0.2s;
+      position: relative;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: #667eea;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+    .tag-ipo { background: #2d1b69; color: #b89ef8; }
+    .tag-funding { background: #1b3d2e; color: #5fca9e; }
+    .tag-market { background: #3d1f1f; color: #f87171; }
+    .tag-policy { background: #1f2d3d; color: #60a5fa; }
+    .tag-tech { background: #3d2d1f; color: #fbbf24; }
+    .tag-earnings { background: #1f3d2e; color: #34d399; }
+    .tag-stock { background: #2d1b3d; color: #e879f9; }
+    .card h2 {
+      font-size: 1.05rem;
+      line-height: 1.4;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .card p {
+      font-size: 0.88rem;
+      color: #9999bb;
+      line-height: 1.6;
+    }
+
+    .stocks-section {
+      background: #12122a;
+      border: 1px solid #1e1e42;
+      border-radius: 14px;
+      padding: 28px;
+    }
+    .stocks-section h3 {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .stock-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .stock-tag {
+      background: #1a1a3a;
+      border: 1px solid #2a2a5a;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #a78bfa;
+      cursor: default;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      .news-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🤖 AI 新聞快報</h1>
+    <p>2026 年 5 月 5 日 · 精選重點資訊</p>
+  </header>
+
+  <div class="news-grid">
+    <div class="card">
+      <span class="tag tag-ipo">IPO</span>
+      <h2>Cerebras IPO</h2>
+      <p>AI 晶片製造商準備掛牌，估值可達 266 億美元，衝刺半導體市場新一輪熱潮。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-funding">融資</span>
+      <h2>Sierra 9.5 億美元融資</h2>
+      <p>企業 AI 應用市場持續升溫，Sierra 獲大額資金加持估值飆升。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-market">市場趨勢</span>
+      <h2>圖像 AI 模型熱潮</h2>
+      <p>圖像生成 AI 模型火熱，帶動相關 App 下載量飆升 6.5 倍。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-policy">政策監管</span>
+      <h2>白宮制定 AI 監管行政命令</h2>
+      <p>美國政府加快腳步，白宮正式制定 AI 監管行政命令，全面布局監理框架。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-tech">AI 里程碑</span>
+      <h2>OpenAI：Brockman 稱已達 AGI 的 80%</h2>
+      <p>OpenAI 總裁 Brockman 公開聲稱已達成通用人工智慧（AGI）的 80%，引爆業界熱議。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-earnings">財報亮眼</span>
+      <h2>Palantir 營收增速創歷史新高</h2>
+      <p>Palantir 營收成長速度創下歷史新高，資料分析需求直線攀升。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-stock">企業動態</span>
+      <h2>Micron 快速竄升為美國頂尖企業</h2>
+      <p>記憶體大廠 Micron 營收與股價雙雙飆漲，正式躋身美國頂尖科技企業行列。</p>
+    </div>
+  </div>
+
+  <div class="stocks-section">
+    <h3>📈 相關股票</h3>
+    <div class="stock-tags">
+      <span class="stock-tag">NVDA</span>
+      <span class="stock-tag">AMD</span>
+      <span class="stock-tag">MU</span>
+      <span class="stock-tag">GOOGL</span>
+      <span class="stock-tag">META</span>
+      <span class="stock-tag">PLTR</span>
+      <span class="stock-tag">TSLA</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
